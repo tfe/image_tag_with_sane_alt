@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "image_tag_with_sane_alt"
   gem.homepage = "http://github.com/tfe/image_tag_with_sane_alt"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Modifies default Rails behavior for image_tag alt text.}
+  gem.description = %Q{Prevents default Rails behavior for image_tag alt text (uses the file name, which can be long and ugly). Instead, this outputs no alt text unless you specify some.}
   gem.email = "todd@toddeichel.com"
   gem.authors = ["Todd Eichel"]
   # dependencies defined in Gemfile
