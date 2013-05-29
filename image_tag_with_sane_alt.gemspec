@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
+    "image_tag_with_sane_alt.gemspec",
     "lib/image_tag_with_sane_alt.rb",
     "lib/image_tag_with_sane_alt/image_tag_patch.rb",
     "lib/image_tag_with_sane_alt/railtie.rb",
